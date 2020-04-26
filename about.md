@@ -2,17 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+feature-img: "assets/img/pexels/circuit.jpeg"
+tags: [About, Archive]
 ---
+I'm Mark - a professional product developer with a background in streamed data, machine learning, web applications and enterprise web application security.  I'm also interested in lots of other things, and wanted a plce to collect projects and thoughts and try stuff out.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This site is built using the [Type on Strap theme](https://github.io/sylhare/Type-on-Strap), so thanks to them!
