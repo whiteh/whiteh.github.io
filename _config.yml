@@ -7,7 +7,7 @@ title: forkThis.co.uk                                    # site's title
 description: "Mark Greenwood's Blog"      # used by search engines
 #avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 avatar: https://en.gravatar.com/userimage/110637740/2562b2dfcd0050f6cb9e7511f655ebdc.jpg
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+favicon: favicon.png                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: <code>forkThis</code>  # Change Blog header text
