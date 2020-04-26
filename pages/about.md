@@ -5,10 +5,6 @@ permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
+I'm Mark - a professional product developer with a background in streamed data, machine learning, web applications and enterprise web application security.  I'm also interested in lots of other things, and wanted a plce to collect projects and thoughts and try stuff out.
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
-
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+This site is built using the [Type on Strap theme](https://github.io/sylhare/Type-on-Strap), so thanks to them!
