@@ -1,9 +1,13 @@
-version: '2'
 services:
   jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --watch --force_polling --verbose
+    image: ruby:3.3
+    working_dir: /srv/jekyll
+    command: sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --drafts"
     ports:
-        - 4000:4000
+      - 4000:4000
+      - 35729:35729
     volumes:
-        - .:/srv/jekyll
+      - .:/srv/jekyll
+      - bundle:/usr/local/bundle
+volumes:
+  bundle:

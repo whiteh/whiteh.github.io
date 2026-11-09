@@ -1,0 +1,19 @@
+{%- assign p = include.project -%}
+<article class="card">
+  <a class="card-link" href="{{ p.url | relative_url }}">
+    <div class="card-media">
+      {%- if p.img -%}
+      <img src="{{ p.img | relative_url }}" alt="" loading="lazy">
+      {%- else -%}
+      <span class="card-initial" aria-hidden="true">{{ p.title | slice: 0 }}</span>
+      {%- endif -%}
+    </div>
+    <div class="card-body">
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.summary | default: p.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% if p.tags.size > 0 %}
+      <ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+  </a>
+</article>
