@@ -2,6 +2,7 @@
 title: Bargain Hunt in numbers
 summary: An LLM pipeline that turns BBC Bargain Hunt subtitles into a dataset of every item bought and sold, and the stats behind it.
 img: /assets/img/portfolio/bargain-hunt.png
+link: https://bargains.forkthis.co.uk
 order: 1
 date: 2026-11-07
 tags: [Data, LLMs, Python, Docker]
@@ -27,11 +28,3 @@ teams do best, and the best finds and worst buys.
 
 The whole pipeline reruns daily on a schedule. Episodes already extracted are skipped, so a
 rerun only pays for new ones.
-
-## Built to be careful
-
-Everything runs in a locked-down Docker container. It runs as a normal user with no Linux
-capabilities and a read-only filesystem, and can see only its own data folder. `get_iplayer`
-is pinned to a fixed release and its hash is checked during the build. The publish step runs
-in a separate throwaway container that never sees the OpenAI key, and contestant names stay
-off the public page.
