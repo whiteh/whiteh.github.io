@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  {% if site.avatar %}
+  <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author.name }}" width="96" height="96">
+  {% endif %}
+  <div>
+    <p class="eyebrow">Hi, I'm</p>
+    <h1>{{ site.author.name }}</h1>
+    <div class="lede">{{ content }}</div>
+    {% include social.html %}
+  </div>
+</section>
+
+<section id="projects" class="wrap section">
+  <h2 class="section-title">Projects</h2>
+  {% assign projects = site.portfolio | sort: 'order' %}
+  <div class="grid">
+    {% for project in projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+
+{% if site.posts.size > 0 %}
+<section id="writing" class="wrap section">
+  <h2 class="section-title">Writing</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit: 10 %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

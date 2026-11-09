@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="wrap narrow prose">
+  <header class="page-header">
+    <p class="eyebrow"><a href="{{ '/#projects' | relative_url }}">&larr; Projects</a></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="subtitle">{{ page.summary }}</p>{% endif %}
+    {% if page.tags.size > 0 %}
+    <ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+    {% endif %}
+  </header>
+  {% if page.img %}
+  <figure class="hero-img"><img src="{{ page.img | relative_url }}" alt="{{ page.title }} screenshot"></figure>
+  {% endif %}
+  {{ content }}
+  {% if page.link %}
+  <p><a class="button" href="{{ page.link }}">Visit {{ page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }} &rarr;</a></p>
+  {% endif %}
+</article>

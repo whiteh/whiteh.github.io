@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">&gt;_</span>
+      <code>{{ site.title }}</code>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        {% for item in site.nav %}
+        <li><a href="{{ item.url | relative_url }}"
+          {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
