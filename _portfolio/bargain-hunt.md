@@ -3,7 +3,7 @@ title: Bargain Hunt in numbers
 summary: An LLM pipeline that turns BBC Bargain Hunt subtitles into a dataset of every item bought and sold, and the stats behind it.
 img: /assets/img/portfolio/bargain-hunt.png
 link: https://bargains.forkthis.co.uk
-order: 1
+order: 2
 date: 2026-11-07
 tags: [Data, LLMs, Python, Docker]
 ---
