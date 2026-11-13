@@ -11,6 +11,9 @@ application security. Most of my side projects grow out of the overlap between t
 Most of my projects start with a question, and the answer turns out to need some data that
 nobody has collected yet:
 
+- **Is the nation feeling festive yet?** That became
+  [How festive is the UK?]({{ '/projects/mariah-christmas/' | relative_url }}), a daily
+  festivity index built from Google searches for *All I Want for Christmas Is You*.
 - **How do you keep an AI agent up to date with what's happening in the world?** That became
   [Follo]({{ '/projects/follo/' | relative_url }}), which watches news sources for the topics
   you care about and pushes the relevant events straight into your workflows.

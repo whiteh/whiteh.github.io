@@ -3,7 +3,7 @@ title: Follo
 summary: News monitoring for AI agents. Describe a topic in plain language, and Follo watches the web, judges what's relevant, and pushes events into your workflows as they happen.
 img: /assets/img/portfolio/follo.png
 link: https://follo.news
-order: 1
+order: 2
 date: 2026-04-10
 tags: [AI, Agents, Data, SaaS]
 ---
