@@ -3,7 +3,7 @@ title: haveibeencloned
 summary: Raising awareness of the biometric and genetic data companies hold about us, and tracking breaches of data you can't change.
 img: /assets/img/portfolio/hibc.png
 link: https://www.haveibeencloned.co.uk
-order: 3
+order: 4
 date: 2021-01-05
 tags: [Security, Privacy, Biometrics, Genetics]
 redirect_from: /portfolio/haveibeencloned
