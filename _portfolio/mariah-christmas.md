@@ -2,7 +2,7 @@
 title: How festive is the UK?
 summary: A daily festivity index for the nation, measured by Google searches for "All I Want for Christmas Is You".
 img: /assets/img/portfolio/mariah-christmas.png
-link: https://forkthis.co.uk/mariah-christmas/
+link: https://forkthis.co.uk/festivity-index/
 order: 1
 date: 2026-11-13
 tags: [Data, Python, Google Trends, Fun]
