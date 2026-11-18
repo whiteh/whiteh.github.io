@@ -2,7 +2,7 @@
 title: RiskyClick
 summary: A phishing link checker that runs in your browser, trained on the phishing links I collected from 2020 to 2025.
 img: /assets/img/portfolio/riskyclick.png
-link: https://riskyclick.co.uk
+link: https://www.riskyclick.co.uk
 order: 5
 date: 2026-11-18
 tags: [Security, Machine learning, Python, Cloudflare]
