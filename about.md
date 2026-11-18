@@ -20,9 +20,9 @@ nobody has collected yet:
 - **Who holds data about us that we can't change?** That became
   [haveibeencloned]({{ '/projects/haveibeencloned/' | relative_url }}), a guide to biometric
   and genetic data risk with a news tracker going back to 2019.
-- **What does phishing look like over time, not just today?** That became
-  [RiskyClick]({{ '/projects/riskyclick/' | relative_url }}), a serverless pipeline collecting
-  phishing feeds around the clock.
+- **Can you spot a phishing link from the address alone?** That became
+  [RiskyClick]({{ '/projects/riskyclick/' | relative_url }}), a link checker that runs in your
+  browser, trained on the phishing links I collected from 2020 to 2025.
 - **Do Bargain Hunt teams actually make money?** That became
   [Bargain Hunt in numbers]({{ '/projects/bargain-hunt/' | relative_url }}), which uses an LLM
   to pull prices out of subtitles. (Mostly yes. Jewellery is the safe bet.)
